@@ -73,10 +73,10 @@ class VacuumCleanerAgent:
         # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 
-# Example usage:
+#Example usage:
 agent = VacuumCleanerAgent()
 
-# Move the agent, suck dirt, and do nothing
+#Move the agent, suck dirt, and do nothing
 
 agent.perform_action("left")
 agent.print_status()
@@ -85,11 +85,13 @@ agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
 
+
 OUTPUT
 
 ![Screenshot 2025-04-23 152611](https://github.com/user-attachments/assets/141d46e5-71df-4180-a015-eff921eb3ac1)
 
 RESULT
+
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
 
 
