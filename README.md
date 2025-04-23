@@ -1,19 +1,18 @@
-ExpNo 1 :Developing AI Agent with PEAS Description
+# ExpNo 1 :Developing AI Agent with PEAS Description
 
-Name: Pragaharshitha NC
+# Name: Pragaharshitha NC
 
-Register Number: 212222110033
+# Register Number: 212222110033
 
-AIM:
+# AIM:
 
 To find the PEAS description for the given AI problem and develop an AI agent.
 
-
-Theory
+# Theory
 Medicine prescribing agent:
 Such this agent prescribes medicine for fever (greater than 98.5 degrees) which we consider here as unhealthy, by the user temperature input, and another environment is rooms in the hospital (two rooms). This agent has to consider two factors one is room location and an unhealthy patient in a random room, the agent has to move from one room to another to check and treat the unhealthy person. The performance of the agent is calculated by incrementing performance and each time after treating in one room again it has to check another room so that the movement causes the agent to reduce its performance. Hence, agents prescribe medicine to unhealthy.
 
-PEAS DESCRIPTION:
+# PEAS DESCRIPTION:
 Agent Type	Performance	Environment	Actuators	Sensors
 Medicine prescribing agent	Treating unhealthy, agent movement	Rooms, Patient	Medicine, Treatment	Location, Temperature of patient
 DESIGN STEPS
@@ -32,7 +31,7 @@ Treat unhealthy patients in each room. And check for the unhealthy patients in r
 STEP 5:
 Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented
 
-PROGRAM
+# PROGRAM
 ```
 class VacuumCleanerAgent:
     def __init__(self):
@@ -90,11 +89,11 @@ agent.perform_action("nothing")
 agent.print_status()
 ```
 
-OUTPUT
+# OUTPUT
 
 ![Screenshot 2025-04-23 152611](https://github.com/user-attachments/assets/141d46e5-71df-4180-a015-eff921eb3ac1)
 
-RESULT
+# RESULT
 
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
 
