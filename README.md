@@ -1,6 +1,9 @@
 ExpNo 1 :Developing AI Agent with PEAS Description
+
 Name: Pragaharshitha NC
+
 Register Number: 212222110033
+
 AIM:
 
 To find the PEAS description for the given AI problem and develop an AI agent.
@@ -30,6 +33,7 @@ STEP 5:
 Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented
 
 PROGRAM
+```
 class VacuumCleanerAgent:
     def __init__(self):
         # Initialize the agent's state (location and dirt status)
@@ -73,10 +77,10 @@ class VacuumCleanerAgent:
         # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
 
-#Example usage:
+# Example usage:
 agent = VacuumCleanerAgent()
 
-#Move the agent, suck dirt, and do nothing
+# Move the agent, suck dirt, and do nothing
 
 agent.perform_action("left")
 agent.print_status()
@@ -84,7 +88,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-
+```
 
 OUTPUT
 
